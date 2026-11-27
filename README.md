@@ -2,10 +2,10 @@
 # JPEG -> JPEG
 ## Convolution
 <div>
-    <figure style="display: inline-block">
-        <img src="/images/jpeg/fractal-box-con.jpeg" width=128 height=72 alt="Convolution Box">
-        <figcaption>Box</figcaption>
-    <figure>
+    <!-- <figure style="display: inline-block"> -->
+        <img src="/images/jpeg/fractal-box-con.jpeg" width=128 height=72 title="Convolution Box" alt="Convolution Box">
+        <!-- <figcaption>Box</figcaption> -->
+    <!-- <figure> -->
     <figure>
         <img src="/images/jpeg/fractal-lin-con.jpeg" width=128 height=72 alt="Convolution Box">
         <figcaption>Linear</figcaption>
