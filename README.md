@@ -1,3 +1,4 @@
+![Original Image](/images/fractal.jpeg "Original Image")
 # JPEG -> JPEG
 ## i3
 ### Convolution
