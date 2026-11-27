@@ -2,6 +2,9 @@
 # JPEG -> JPEG
 ## Convolution
 <img src="/images/jpeg/fractal-box-con.jpeg" width=128 height=72>
+<img src="/images/jpeg/fractal-lin-con.jpeg" width=128 height=72>
+<img src="/images/jpeg/fractal-ham-con.jpeg" width=128 height=72>
+
 ### i3
 || **Box** | **Linear** | **Hamming** | **CatmullRom** | **Mitchell** | **Gaussian** | **Lanczos3** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
