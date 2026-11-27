@@ -128,6 +128,7 @@
     <img src="/images/webp/fractal-gau-ssp.webp" width=128 height=72 title="SuperSampling Gaussian" alt="SuperSampling Gaussian">
     <img src="/images/webp/fractal-lcz-ssp.webp" width=128 height=72 title="SuperSampling Lanczos3" alt="SuperSampling Lanczos3">
 </div>
+
 ### i3
 | | **Box** | **Linear** | **Hamming** | **CatmullRom** | **Mitchell** | **Gaussian** | **Lanczos3** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
