@@ -1,13 +1,36 @@
 ![Original Image](/images/fractal.jpeg "Original Image")
 # JPEG -> JPEG
 ## Convolution
-<figure>
-    <img src="/images/jpeg/fractal-box-con.jpeg" width=128 height=72 alt="Convolution Box">
-    <figcaption>Convolution Box</figcaption>
-<figure>
-<img src="/images/jpeg/fractal-lin-con.jpeg" width=128 height=72>
-<img src="/images/jpeg/fractal-ham-con.jpeg" width=128 height=72>
-
+<div>
+    <figure>
+        <img src="/images/jpeg/fractal-box-con.jpeg" width=128 height=72 alt="Convolution Box">
+        <figcaption>Box</figcaption>
+    <figure>
+    <figure>
+        <img src="/images/jpeg/fractal-lin-con.jpeg" width=128 height=72 alt="Convolution Box">
+        <figcaption>Linear</figcaption>
+    <figure>
+    <figure>
+        <img src="/images/jpeg/fractal-ham-con.jpeg" width=128 height=72 alt="Convolution Box">
+        <figcaption>Hamming</figcaption>
+    <figure>
+    <figure>
+        <img src="/images/jpeg/fractal-cat-con.jpeg" width=128 height=72 alt="Convolution Box">
+        <figcaption>CatmullRom</figcaption>
+    <figure>
+    <figure>
+        <img src="/images/jpeg/fractal-mit-con.jpeg" width=128 height=72 alt="Convolution Box">
+        <figcaption>Mitchell</figcaption>
+    <figure>
+    <figure>
+        <img src="/images/jpeg/fractal-gau-con.jpeg" width=128 height=72 alt="Convolution Box">
+        <figcaption>Gaussian</figcaption>
+    <figure>
+    <figure>
+        <img src="/images/jpeg/fractal-lcz-con.jpeg" width=128 height=72 alt="Convolution Box">
+        <figcaption>Lanczos3</figcaption>
+    <figure>
+</div>
 ### i3
 || **Box** | **Linear** | **Hamming** | **CatmullRom** | **Mitchell** | **Gaussian** | **Lanczos3** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
