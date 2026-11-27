@@ -1,3 +1,4 @@
+# 1920x1080 -> 1080x720
 ![Original Image](/images/fractal.jpeg "Original Image")
 # JPEG -> JPEG
 ## Convolution
