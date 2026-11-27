@@ -2,7 +2,7 @@
 # JPEG -> JPEG
 ## Convolution
 <div>
-    <figure>
+    <figure style="display: inline-block">
         <img src="/images/jpeg/fractal-box-con.jpeg" width=128 height=72 alt="Convolution Box">
         <figcaption>Box</figcaption>
     <figure>
@@ -31,6 +31,7 @@
         <figcaption>Lanczos3</figcaption>
     <figure>
 </div>
+
 ### i3
 || **Box** | **Linear** | **Hamming** | **CatmullRom** | **Mitchell** | **Gaussian** | **Lanczos3** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
