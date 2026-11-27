@@ -1,7 +1,10 @@
 ![Original Image](/images/fractal.jpeg "Original Image")
 # JPEG -> JPEG
 ## Convolution
-<img src="/images/jpeg/fractal-box-con.jpeg" width=128 height=72>
+<figure>
+    <img src="/images/jpeg/fractal-box-con.jpeg" width=128 height=72 alt="Convolution Box">
+    <figcaption>Convolution Box</figcaption>
+<figure>
 <img src="/images/jpeg/fractal-lin-con.jpeg" width=128 height=72>
 <img src="/images/jpeg/fractal-ham-con.jpeg" width=128 height=72>
 
