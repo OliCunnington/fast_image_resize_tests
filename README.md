@@ -1,15 +1,17 @@
 # 1920x1080 -> 1080x720
 ![Original Image](/images/fractal.jpeg "Original Image")
+# Fast Image Resize
+[fast_image_resize](https://crates.io/crates/fast_image_resize)
 # JPEG -> JPEG
 ## Convolution
 <div>
-    <img src="/images/1080x720/jpeg/fractal-box-con.jpeg" width=128 height=72 title="Convolution Box" alt="Convolution Box">
-    <img src="/images/1080x720/jpeg/fractal-lin-con.jpeg" width=128 height=72 title="Convolution Linear" alt="Convolution Linear">
-    <img src="/images/1080x720/jpeg/fractal-ham-con.jpeg" width=128 height=72 title="Convolution Hamming" alt="Convolution Hamming">
-    <img src="/images/1080x720/jpeg/fractal-cat-con.jpeg" width=128 height=72 title="Convolution CatmullRom" alt="Convolution CatmullRom">
-    <img src="/images/1080x720/jpeg/fractal-mit-con.jpeg" width=128 height=72 title="Convolution Mitchell" alt="Convolution Mitchell">
-    <img src="/images/1080x720/jpeg/fractal-gau-con.jpeg" width=128 height=72 title="Convolution Gaussian" alt="Convolution Gaussian">
-    <img src="/images/1080x720/jpeg/fractal-lcz-con.jpeg" width=128 height=72 title="Convolution Lanczos3" alt="Convolution Lanczos3">
+    <img src="/images/1080x720/fir/jpeg/fractal-box-con.jpeg" width=128 height=72 title="Convolution Box" alt="Convolution Box">
+    <img src="/images/1080x720/fir/jpeg/fractal-lin-con.jpeg" width=128 height=72 title="Convolution Linear" alt="Convolution Linear">
+    <img src="/images/1080x720/fir/jpeg/fractal-ham-con.jpeg" width=128 height=72 title="Convolution Hamming" alt="Convolution Hamming">
+    <img src="/images/1080x720/fir/jpeg/fractal-cat-con.jpeg" width=128 height=72 title="Convolution CatmullRom" alt="Convolution CatmullRom">
+    <img src="/images/1080x720/fir/jpeg/fractal-mit-con.jpeg" width=128 height=72 title="Convolution Mitchell" alt="Convolution Mitchell">
+    <img src="/images/1080x720/fir/jpeg/fractal-gau-con.jpeg" width=128 height=72 title="Convolution Gaussian" alt="Convolution Gaussian">
+    <img src="/images/1080x720/fir/jpeg/fractal-lcz-con.jpeg" width=128 height=72 title="Convolution Lanczos3" alt="Convolution Lanczos3">
 </div>
 
 ### i3
@@ -26,13 +28,13 @@
 | **max** | 370 | 423 | 425 | 525 | 525 | 632 | 634 |
 ## Interpolation
 <div>
-    <img src="/images/1080x720/jpeg/fractal-box-int.jpeg" width=128 height=72 title="Interpolation Box" alt="Interpolation Box">
-    <img src="/images/1080x720/jpeg/fractal-lin-int.jpeg" width=128 height=72 title="Interpolation Linear" alt="Interpolation Linear">
-    <img src="/images/1080x720/jpeg/fractal-ham-int.jpeg" width=128 height=72 title="Interpolation Hamming" alt="Interpolation Hamming">
-    <img src="/images/1080x720/jpeg/fractal-cat-int.jpeg" width=128 height=72 title="Interpolation CatmullRom" alt="Interpolation CatmullRom">
-    <img src="/images/1080x720/jpeg/fractal-mit-int.jpeg" width=128 height=72 title="Interpolation Mitchell" alt="Interpolation Mitchell">
-    <img src="/images/1080x720/jpeg/fractal-gau-int.jpeg" width=128 height=72 title="Interpolation Gaussian" alt="Interpolation Gaussian">
-    <img src="/images/1080x720/jpeg/fractal-lcz-int.jpeg" width=128 height=72 title="Interpolation Lanczos3" alt="Interpolation Lanczos3">
+    <img src="/images/1080x720/fir/jpeg/fractal-box-int.jpeg" width=128 height=72 title="Interpolation Box" alt="Interpolation Box">
+    <img src="/images/1080x720/fir/jpeg/fractal-lin-int.jpeg" width=128 height=72 title="Interpolation Linear" alt="Interpolation Linear">
+    <img src="/images/1080x720/fir/jpeg/fractal-ham-int.jpeg" width=128 height=72 title="Interpolation Hamming" alt="Interpolation Hamming">
+    <img src="/images/1080x720/fir/jpeg/fractal-cat-int.jpeg" width=128 height=72 title="Interpolation CatmullRom" alt="Interpolation CatmullRom">
+    <img src="/images/1080x720/fir/jpeg/fractal-mit-int.jpeg" width=128 height=72 title="Interpolation Mitchell" alt="Interpolation Mitchell">
+    <img src="/images/1080x720/fir/jpeg/fractal-gau-int.jpeg" width=128 height=72 title="Interpolation Gaussian" alt="Interpolation Gaussian">
+    <img src="/images/1080x720/fir/jpeg/fractal-lcz-int.jpeg" width=128 height=72 title="Interpolation Lanczos3" alt="Interpolation Lanczos3">
 </div>
 
 ### i3
@@ -49,13 +51,13 @@
 | **max** | 371 | 367 | 366 | 420 | 419 | 493 | 491 |
 ## SuperSampling
 <div>
-    <img src="/images/1080x720/jpeg/fractal-box-ssp.jpeg" width=128 height=72 title="SuperSampling Box" alt="SuperSampling Box">
-    <img src="/images/1080x720/jpeg/fractal-lin-ssp.jpeg" width=128 height=72 title="SuperSampling Linear" alt="SuperSampling Linear">
-    <img src="/images/1080x720/jpeg/fractal-ham-ssp.jpeg" width=128 height=72 title="SuperSampling Hamming" alt="SuperSampling Hamming">
-    <img src="/images/1080x720/jpeg/fractal-cat-ssp.jpeg" width=128 height=72 title="SuperSampling CatmullRom" alt="SuperSampling CatmullRom">
-    <img src="/images/1080x720/jpeg/fractal-mit-ssp.jpeg" width=128 height=72 title="SuperSampling Mitchell" alt="SuperSampling Mitchell">
-    <img src="/images/1080x720/jpeg/fractal-gau-ssp.jpeg" width=128 height=72 title="SuperSampling Gaussian" alt="SuperSampling Gaussian">
-    <img src="/images/1080x720/jpeg/fractal-lcz-ssp.jpeg" width=128 height=72 title="SuperSampling Lanczos3" alt="SuperSampling Lanczos3">
+    <img src="/images/1080x720/fir/jpeg/fractal-box-ssp.jpeg" width=128 height=72 title="SuperSampling Box" alt="SuperSampling Box">
+    <img src="/images/1080x720/fir/jpeg/fractal-lin-ssp.jpeg" width=128 height=72 title="SuperSampling Linear" alt="SuperSampling Linear">
+    <img src="/images/1080x720/fir/jpeg/fractal-ham-ssp.jpeg" width=128 height=72 title="SuperSampling Hamming" alt="SuperSampling Hamming">
+    <img src="/images/1080x720/fir/jpeg/fractal-cat-ssp.jpeg" width=128 height=72 title="SuperSampling CatmullRom" alt="SuperSampling CatmullRom">
+    <img src="/images/1080x720/fir/jpeg/fractal-mit-ssp.jpeg" width=128 height=72 title="SuperSampling Mitchell" alt="SuperSampling Mitchell">
+    <img src="/images/1080x720/fir/jpeg/fractal-gau-ssp.jpeg" width=128 height=72 title="SuperSampling Gaussian" alt="SuperSampling Gaussian">
+    <img src="/images/1080x720/fir/jpeg/fractal-lcz-ssp.jpeg" width=128 height=72 title="SuperSampling Lanczos3" alt="SuperSampling Lanczos3">
 </div>
 
 ### i3
@@ -75,13 +77,13 @@
 # JPEG -> WEBP
 ## Convolution
 <div>
-    <img src="/images/1080x720/webp/fractal-box-con.webp" width=128 height=72 title="Convolution Box" alt="Convolution Box">
-    <img src="/images/1080x720/webp/fractal-lin-con.webp" width=128 height=72 title="Convolution Linear" alt="Convolution Linear">
-    <img src="/images/1080x720/webp/fractal-ham-con.webp" width=128 height=72 title="Convolution Hamming" alt="Convolution Hamming">
-    <img src="/images/1080x720/webp/fractal-cat-con.webp" width=128 height=72 title="Convolution CatmullRom" alt="Convolution CatmullRom">
-    <img src="/images/1080x720/webp/fractal-mit-con.webp" width=128 height=72 title="Convolution Mitchell" alt="Convolution Mitchell">
-    <img src="/images/1080x720/webp/fractal-gau-con.webp" width=128 height=72 title="Convolution Gaussian" alt="Convolution Gaussian">
-    <img src="/images/1080x720/webp/fractal-lcz-con.webp" width=128 height=72 title="Convolution Lanczos3" alt="Convolution Lanczos3">
+    <img src="/images/1080x720/fir/webp/fractal-box-con.webp" width=128 height=72 title="Convolution Box" alt="Convolution Box">
+    <img src="/images/1080x720/fir/webp/fractal-lin-con.webp" width=128 height=72 title="Convolution Linear" alt="Convolution Linear">
+    <img src="/images/1080x720/fir/webp/fractal-ham-con.webp" width=128 height=72 title="Convolution Hamming" alt="Convolution Hamming">
+    <img src="/images/1080x720/fir/webp/fractal-cat-con.webp" width=128 height=72 title="Convolution CatmullRom" alt="Convolution CatmullRom">
+    <img src="/images/1080x720/fir/webp/fractal-mit-con.webp" width=128 height=72 title="Convolution Mitchell" alt="Convolution Mitchell">
+    <img src="/images/1080x720/fir/webp/fractal-gau-con.webp" width=128 height=72 title="Convolution Gaussian" alt="Convolution Gaussian">
+    <img src="/images/1080x720/fir/webp/fractal-lcz-con.webp" width=128 height=72 title="Convolution Lanczos3" alt="Convolution Lanczos3">
 </div>
 
 ### i3
@@ -98,13 +100,13 @@
 | **max** | 372 | 423 | 423 | 526 | 592 | 634 | 633 |
 ## Interpolation
 <div>
-    <img src="/images1080x720//webp/fractal-box-int.webp" width=128 height=72 title="Interpolation Box" alt="Interpolation Box">
-    <img src="/images1080x720//webp/fractal-lin-int.webp" width=128 height=72 title="Interpolation Linear" alt="Interpolation Linear">
-    <img src="/images1080x720//webp/fractal-ham-int.webp" width=128 height=72 title="Interpolation Hamming" alt="Interpolation Hamming">
-    <img src="/images1080x720//webp/fractal-cat-int.webp" width=128 height=72 title="Interpolation CatmullRom" alt="Interpolation CatmullRom">
-    <img src="/images1080x720//webp/fractal-mit-int.webp" width=128 height=72 title="Interpolation Mitchell" alt="Interpolation Mitchell">
-    <img src="/images1080x720//webp/fractal-gau-int.webp" width=128 height=72 title="Interpolation Gaussian" alt="Interpolation Gaussian">
-    <img src="/images1080x720//webp/fractal-lcz-int.webp" width=128 height=72 title="Interpolation Lanczos3" alt="Interpolation Lanczos3">
+    <img src="/images1080x720/fir//webp/fractal-box-int.webp" width=128 height=72 title="Interpolation Box" alt="Interpolation Box">
+    <img src="/images1080x720/fir//webp/fractal-lin-int.webp" width=128 height=72 title="Interpolation Linear" alt="Interpolation Linear">
+    <img src="/images1080x720/fir//webp/fractal-ham-int.webp" width=128 height=72 title="Interpolation Hamming" alt="Interpolation Hamming">
+    <img src="/images1080x720/fir//webp/fractal-cat-int.webp" width=128 height=72 title="Interpolation CatmullRom" alt="Interpolation CatmullRom">
+    <img src="/images1080x720/fir//webp/fractal-mit-int.webp" width=128 height=72 title="Interpolation Mitchell" alt="Interpolation Mitchell">
+    <img src="/images1080x720/fir//webp/fractal-gau-int.webp" width=128 height=72 title="Interpolation Gaussian" alt="Interpolation Gaussian">
+    <img src="/images1080x720/fir//webp/fractal-lcz-int.webp" width=128 height=72 title="Interpolation Lanczos3" alt="Interpolation Lanczos3">
 </div>
 
 ### i3
@@ -121,13 +123,13 @@
 | **max** | 367 | 367 | 371 | 424 | 426 | 500 | 493 |
 ## SuperSampling
 <div>
-    <img src="/images/1080x720/webp/fractal-box-ssp.webp" width=128 height=72 title="SuperSampling Box" alt="SuperSampling Box">
-    <img src="/images/1080x720/webp/fractal-lin-ssp.webp" width=128 height=72 title="SuperSampling Linear" alt="SuperSampling Linear">
-    <img src="/images/1080x720/webp/fractal-ham-ssp.webp" width=128 height=72 title="SuperSampling Hamming" alt="SuperSampling Hamming">
-    <img src="/images/1080x720/webp/fractal-cat-ssp.webp" width=128 height=72 title="SuperSampling CatmullRom" alt="SuperSampling CatmullRom">
-    <img src="/images/1080x720/webp/fractal-mit-ssp.webp" width=128 height=72 title="SuperSampling Mitchell" alt="SuperSampling Mitchell">
-    <img src="/images/1080x720/webp/fractal-gau-ssp.webp" width=128 height=72 title="SuperSampling Gaussian" alt="SuperSampling Gaussian">
-    <img src="/images/1080x720/webp/fractal-lcz-ssp.webp" width=128 height=72 title="SuperSampling Lanczos3" alt="SuperSampling Lanczos3">
+    <img src="/images/1080x720/fir/webp/fractal-box-ssp.webp" width=128 height=72 title="SuperSampling Box" alt="SuperSampling Box">
+    <img src="/images/1080x720/fir/webp/fractal-lin-ssp.webp" width=128 height=72 title="SuperSampling Linear" alt="SuperSampling Linear">
+    <img src="/images/1080x720/fir/webp/fractal-ham-ssp.webp" width=128 height=72 title="SuperSampling Hamming" alt="SuperSampling Hamming">
+    <img src="/images/1080x720/fir/webp/fractal-cat-ssp.webp" width=128 height=72 title="SuperSampling CatmullRom" alt="SuperSampling CatmullRom">
+    <img src="/images/1080x720/fir/webp/fractal-mit-ssp.webp" width=128 height=72 title="SuperSampling Mitchell" alt="SuperSampling Mitchell">
+    <img src="/images/1080x720/fir/webp/fractal-gau-ssp.webp" width=128 height=72 title="SuperSampling Gaussian" alt="SuperSampling Gaussian">
+    <img src="/images/1080x720/fir/webp/fractal-lcz-ssp.webp" width=128 height=72 title="SuperSampling Lanczos3" alt="SuperSampling Lanczos3">
 </div>
 
 ### i3
